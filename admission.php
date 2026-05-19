@@ -15,7 +15,9 @@
     
     <style>
         .form-container {
-            background: var(--surface);
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(24px) saturate(200%);
+            border: 1px solid rgba(255, 255, 255, 0.08);
             padding: 3rem;
             border-radius: var(--radius-lg);
             box-shadow: var(--shadow-xl);
@@ -34,18 +36,26 @@
         .form-control {
             width: 100%;
             padding: 0.9rem 1rem;
-            border: 1.5px solid #e2e8f0;
+            border: 1.5px solid rgba(255, 255, 255, 0.15);
             border-radius: var(--radius-sm);
             font-family: var(--font-body);
             transition: var(--transition);
             font-size: 0.95rem;
-            background: var(--bg-color);
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+        }
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.5);
         }
         .form-control:focus {
             outline: none;
             border-color: var(--accent);
-            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
-            background: white;
+            box-shadow: 0 0 0 3px rgba(250, 204, 21, 0.15);
+            background: rgba(255, 255, 255, 0.1);
+        }
+        select.form-control option {
+            background: var(--bg-color);
+            color: white;
         }
         .process-step {
             text-align: center;
