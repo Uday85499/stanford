@@ -169,8 +169,9 @@ img {
 
 .btn-primary {
   background: var(--gradient-gold);
-  color: var(--primary);
+  color: var(--bg-color);
   box-shadow: var(--shadow-md);
+  font-weight: 700;
 }
 
 .btn-primary:hover {
@@ -187,7 +188,7 @@ img {
 
 .btn-outline:hover {
   background-color: var(--text-light);
-  color: var(--primary);
+  color: var(--bg-color);
   border-color: var(--text-light);
 }
 
