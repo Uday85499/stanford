@@ -93,6 +93,8 @@
 
     <!-- Academic Excellence Section -->
     <div class="container" style="position: relative; z-index: 40; margin-top: -4rem;">
+        <!-- Background blob for glassmorphism -->
+        <div style="position: absolute; top: 10%; left: 50%; transform: translateX(-50%); width: 80%; height: 80%; background: linear-gradient(135deg, var(--secondary-light) 0%, var(--primary-light) 100%); filter: blur(80px); opacity: 0.15; z-index: 0; border-radius: 50%;"></div>
         <div class="services-grid reveal">
             <div class="service-card">
                 <div class="service-icon"><i class="fas fa-child"></i></div>
@@ -128,7 +130,7 @@
                     </div>
                 </div>
                 <div class="about-content reveal" style="transition-delay: 0.2s;">
-                    <div class="hero-badge" style="color: var(--primary); background: rgba(13,27,76,0.08); border-color: rgba(13,27,76,0.15);">Our Legacy</div>
+                    <div class="hero-badge" style="color: var(--primary); background: rgba(6, 78, 59, 0.08); border-color: rgba(6, 78, 59, 0.15);">Our Legacy</div>
                     <h2 class="section-title" style="text-align: left; margin-top: 1rem;">A Tradition of Academic Prestige</h2>
                     <p style="margin-bottom: 1.5rem; font-size: 1.15rem; color: var(--text-muted); line-height: 1.8;">
                         For over three decades, Stanford International School has stood as a beacon of educational excellence. Recognized by the Government of Karnataka, we seamlessly blend international academic standards with strong foundational values.
